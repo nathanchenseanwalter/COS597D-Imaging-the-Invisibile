@@ -15,7 +15,7 @@ def sum_numbers(x, y):
         Sum of x and y.
     """
     # replace the following line with an actual implementation that returns something
-    raise NotImplementedError
+    return x + y
 
 def multiply_numbers(x, y):
     """
@@ -31,7 +31,7 @@ def multiply_numbers(x, y):
         Product of x and y.
     """
     # replace the following line with an actual implementation that returns something
-    raise NotImplementedError
+    return x * y
 
 def create_add_matrix(x):
     """
@@ -48,7 +48,7 @@ def create_add_matrix(x):
         output (np.ndarray): the operation result
     """
     # replace the following line with an actual implementation that returns something
-    raise NotImplementedError
+    return np.ones((3, 3)) + x
 
 def indexing_aggregation(x, n):
     """
@@ -64,7 +64,7 @@ def indexing_aggregation(x, n):
         output (float): the operation result
     """
     # replace the following line with an actual implementation that returns something
-    raise NotImplementedError
+    return np.mean(x[:n])
 
 def matrix_inverse(A):
     """
@@ -80,7 +80,7 @@ def matrix_inverse(A):
         output (np.ndarray): the operation result
     """
     # replace the following line with an actual implementation that returns something
-    raise NotImplementedError
+    return np.linalg.inv(A)
 
 def element_wise_multiplication(A, B):
     """
@@ -97,7 +97,7 @@ def element_wise_multiplication(A, B):
         output (np.ndarray): the operation result
     """
     # replace the following line with an actual implementation that returns something
-    raise NotImplementedError
+    return A * B
 
 def matrix_transpose(A):
     """
@@ -112,4 +112,4 @@ def matrix_transpose(A):
         output (np.ndarray): the operation result
     """
     # replace the following line with an actual implementation that returns something
-    raise NotImplementedError
+    return A.T
